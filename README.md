@@ -45,6 +45,14 @@ pip install streamlit>=1.39.0 yfinance>=0.2.46 pandas>=2.2.3 plotly>=5.24.1 nump
 
 ### Running the App
 
+If you installed with `uv sync`, use `uv run` to ensure the app runs inside the synced virtual environment:
+
+```bash
+uv run streamlit run main.py
+```
+
+Alternatively, if you activated the virtual environment manually (e.g. `source .venv/bin/activate`) or installed with `pip`, you can run:
+
 ```bash
 streamlit run main.py
 ```
@@ -54,7 +62,7 @@ The app will be available at `http://localhost:8501` by default.
 To run on a custom port (e.g. 5000):
 
 ```bash
-streamlit run main.py --server.port 5000
+uv run streamlit run main.py --server.port 5000
 ```
 
 ## Usage
