@@ -78,4 +78,4 @@ StockBriefs/
 
 ## License
 
-This project is open source. See the repository for details.
+License information for this project has not yet been specified. Until a license is added, all rights are reserved and you may not use, copy, modify, or distribute this code without explicit permission from the author.
